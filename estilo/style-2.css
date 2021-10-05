@@ -1,0 +1,130 @@
+@charset "UTF-8" ;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    box-sizing: border-box;
+  }
+
+
+:root {
+    --cor4:#0D0D0D;
+    --cor3:#404040;
+    --cor2:#737373;
+    --cor1:#D9D9D9;
+    --cor0:#F2F2F2;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-titulo:'Cinzel', serif  ;
+    --fonte-padrao-2:'Cinzel', serif;
+
+}
+
+
+
+body {
+    font-family:var(--cor4);
+    background-color:var(--cor1);
+    
+   
+}
+
+
+    
+.fixed-width {
+
+    text-align: center;
+    
+}
+
+ header  { 
+    color: var(--cor4);
+    background-color:transparent;
+    padding:40px 0 ; 
+    min-width: 320px;
+    max-width: 1920px;
+
+   }
+  
+
+
+nav  {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 1920px;
+     }
+
+a {text-decoration: none;
+    padding: 10px;
+    color: var(--cor4);
+    font-size: 1em;
+
+    }
+
+
+main {
+    background-color: transparent;
+    border-radius: 10px 10px 0 0;
+    min-width: 220px;
+    max-width: 600px;
+    min-height: 320px;
+    max-height: 1200px;
+    margin: auto;
+   
+}
+
+article  {
+    
+    text-align: center;
+    margin-top: 30px;
+    min-width:320px;
+    max-width: 600px;
+    min-height: 500px;
+    max-height: 800px;
+    padding: 10px;
+ 
+ }
+
+ 
+article h2  {
+    padding: 20px;
+    color: var(--cor3);
+}
+ article h3 {
+     padding: 20px;
+     color: var(--cor3);
+ }
+
+ article p {
+     color: var(--cor4);
+ }
+.imagem {
+    text-align: right;
+    padding: 10px;
+}
+
+img#borda {
+    border: 2px solid #F2F2F2;
+    box-shadow: 3px 4px 15px 1px rgb(0 0 0 / 41%);
+}
+
+footer {
+    color:var(--cor0);
+    background-color:transparent;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    min-width: 320px;
+    max-width: 1920px;
+    margin-top: 220px;
+    margin-bottom: 10px;
+   
+    
+  }

@@ -1,0 +1,132 @@
+@charset "UTF-8" ;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    box-sizing: border-box;
+  }
+
+
+:root {
+    --cor4:#0D0D0D;
+    --cor3:#404040;
+    --cor2:#737373;
+    --cor1:#D9D9D9;
+    --cor0:#F2F2F2;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-titulo:'Cinzel', serif  ;
+    --fonte-padrao-2:'Cinzel', serif;
+
+}
+
+
+
+body {
+    font-family:var(--cor4);
+    background-color:var(--cor1);
+   
+}
+    
+header > h2 {
+    font-family: var(--cor4);
+    font-size: 1em;
+      
+  }  
+ 
+.fixed-width {
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+ header  { 
+    color: var(--cor4);
+    background-color:transparent;
+    padding:40px 0 ;
+    min-width: 320px;
+    max-width: 1920px;
+   }
+main {
+    background-color: transparent;
+    border-radius: 10px 10px 0 0;
+    min-width: 320px;
+    max-width: 1920px;
+    min-height: 568px;
+    max-height: 1480px;
+    margin: auto;
+}
+
+span:hover {
+    border: 0.2px solid rgba(0, 0, 0, 0.089) ;
+    background-color:#7373731a;
+}
+
+
+nav  {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 1920px;
+    
+    }
+
+a {text-decoration: none;
+    padding: 10px;
+    color: var(--cor4);
+    font-size: 1em;
+
+    }
+
+article {
+    text-align: center;
+    }
+
+img#sombreamento{
+    
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.411);
+
+}
+
+div > span {
+    display: none;
+
+}
+
+div:hover > span {
+    display: block;
+}
+
+
+
+h2 {
+  
+    padding: 20px;
+}
+ p {
+     display:inline-block;
+     height: 100px;
+     min-width:150px;
+     max-width: 400px;
+     padding: 10px;
+}
+
+ footer {
+        color:var(--cor0);
+        background-color:transparent;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+        min-width: 320px;
+        max-width: 1920px;
+        margin-top: 220px;
+        margin-bottom: 10px;
+       
+        
+      }

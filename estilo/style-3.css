@@ -77,8 +77,8 @@ main {
 
 
 article {
-    
-    text-align: center;
+text-align: center;
+min-height: 400px;
 }
 
 article h1 {

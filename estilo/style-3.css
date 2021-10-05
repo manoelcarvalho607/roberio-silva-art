@@ -40,10 +40,18 @@ body {
     color: var(--cor4);
     background-color:transparent;
     padding:40px 0 ; 
-    text-align: center;
+   
     min-width: 320px;
     max-width: 1920px;
   
+}
+
+
+
+.fixed-width {
+    margin-top: 40px;
+    text-align: center;
+    
 }
 
 nav  {
@@ -71,6 +79,7 @@ main {
     
     min-width: 320px;
     max-width: 1920px;
+    margin: auto;
     
 }
 
@@ -148,14 +157,12 @@ textarea {
 
 
 footer {
-    color:var(--cor0);
+    color:var(--cor4);
     background-color:transparent;
-    border-radius: 0 0 10px 10px;
     text-align: center;
     min-width: 320px;
     max-width: 1920px;
-    margin-top: 220px;
+    margin-top: 150px;
     margin-bottom: 10px;
    
-    
-  }
+}
